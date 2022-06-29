@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/ic_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/ic_pesquisa"
+        android:icon="@drawable/ic_search"
+        android:title="pesquisa"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/ic_postagem"
+        android:icon="@drawable/ic_add_box"
+        android:title="postagem"
+        tools:ignore="HardcodedText" />
+
+    <item android:id="@+id/ic_perfil"
+        android:icon="@drawable/ic_person"
+        android:title="perfil"
+        tools:ignore="HardcodedText" />
+
+</menu>

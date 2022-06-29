@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".activity.CometariosActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbarCometario"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewComentario"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/background_caixa_comentario"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editCometario"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:hint="Escreva um comentário"
+            android:background="@color/transparente"
+            android:layout_weight="1"
+            android:importantForAutofill="no"
+            tools:ignore="HardcodedText,LabelFor" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_send"
+            android:background="@color/transparente"
+            android:onClick="salvarComenterio"
+            tools:ignore="ContentDescription,OnClick,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+</LinearLayout>
