@@ -10,7 +10,7 @@ como adicionar uma foto no perfil, seguir algum amigo, ver postagem de amigos e 
 
 Foi utilizada algumas funcionalidades com por exemplo o Firebase utilizando o serviço de autenticação, Realtime Database e o Storage.
 
-### Biblioteca
+### Bibliotecas
 Utilizei algumas biblioteca para auxiliar no desenvolvimento como o NavigationEX, CircleImageView, Glide, AndroidPhotoFilter, Android-Universal-Image-Loader e o like button.
 
 # Vídeo do funcionamento do Instagram Clone
