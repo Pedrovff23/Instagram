@@ -5,16 +5,21 @@ para fins de aprendizado e não tem como objetivo ser distribuído na Google Pla
 
 # Funcionalidades usada
 
-Esse projeto tem como objetivo recriar as principais funcionalidades do aplicativo Instagram,
+Este projeto tem como objetivo recriar as principais funcionalidades do aplicativo Instagram,
 como adicionar uma foto no perfil, seguir algum amigo, ver postagem de amigos e fazer comentários sobre a publicação.
 
-Foi utilizada algumas funcionalidades com por exemplo o Firebase utilizando o 
-serviço de autenticação, Realtime Database e o Storage, algumas biblioteca 
-para auxiliar no desenvolvimento como o NavigationEX, CircleImageView, Glide, AndroidPhotoFilter, Android-Universal-Image-Loader e o like button.
+Foi utilizada algumas funcionalidades com por exemplo o Firebase utilizando o serviço de autenticação, Realtime Database e o Storage.
 
-# Funcionamento do Instagram-Clone
+### Biblioteca
+Utilizei algumas biblioteca para auxiliar no desenvolvimento como o NavigationEX, CircleImageView, Glide, AndroidPhotoFilter, Android-Universal-Image-Loader e o like button.
 
-
+# Vídeo do funcionamento do Instagram Clone
 
 https://user-images.githubusercontent.com/55757037/176350290-c8118c8f-bf85-4a66-a7f4-7c8150b7a0af.mp4
+
+## Desenvolvida com:
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+
 
